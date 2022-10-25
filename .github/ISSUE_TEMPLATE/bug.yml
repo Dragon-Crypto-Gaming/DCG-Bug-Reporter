@@ -1,7 +1,17 @@
-name: Bug Report
+name: 🐉 🔍 Bug Report
 description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
+title: '[Bug]: '
+labels:
+  [
+    'bug',
+    'enhancement',
+    'exploit possible',
+    'high',
+    'invalid',
+    'low',
+    'medium',
+    'question',
+  ]
 assignees:
   - octocat
 body:
@@ -13,17 +23,17 @@ body:
     id: contact
     attributes:
       label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      description: Your discord or twitter user id.
+      placeholder: ex. your discord id
     validations:
-      required: false
+      required: true
   - type: textarea
     id: what-happened
     attributes:
       label: What happened?
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
-      value: "A bug happened!"
+      value: 'A bug happened!'
     validations:
       required: true
   - type: dropdown
@@ -32,8 +42,9 @@ body:
       label: Version
       description: What version of our software are you running?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - Whatever is the latest
+        - 1.0.2
+        - 1.0.3
     validations:
       required: true
   - type: dropdown
@@ -42,21 +53,23 @@ body:
       label: What browsers are you seeing the problem on?
       multiple: true
       options:
-        - Firefox
         - Chrome
+        - Firefox
+        - Brave
         - Safari
         - Microsoft Edge
+        - Mobile Metamask
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      label: Relevant log output / error message
+      description: Please copy and paste any relevant log output in console. This will be automatically formatted into code, so no need for backticks.
       render: shell
   - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      description: By submitting this issue, you agree to follow our [Code of Conduct]
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
