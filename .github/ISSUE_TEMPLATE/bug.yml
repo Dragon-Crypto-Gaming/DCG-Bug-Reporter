@@ -1,17 +1,7 @@
 name: 🐉 🔍 Bug Report
 description: File a bug report
 title: '[Bug]: '
-labels:
-  [
-    'bug',
-    'enhancement',
-    'exploit possible',
-    'high',
-    'invalid',
-    'low',
-    'medium',
-    'question',
-  ]
+labels: ['bug']
 assignees:
   - octocat
 body:
