@@ -46,6 +46,9 @@ body:
         - Safari
         - Microsoft Edge
         - Mobile Metamask
+        - Not present in list
+    validations:
+      required: true
   - type: textarea
     id: logs
     attributes:
