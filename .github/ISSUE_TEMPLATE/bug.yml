@@ -16,7 +16,7 @@ body:
       description: Please search to see if an issue already exists for the bug you encounted.
       options:
         - label: I have searched the existing issues
-          required: true
+          required: false
   - type: input
     id: contact
     attributes:
@@ -24,7 +24,7 @@ body:
       description: Your discord or twitter user id.
       placeholder: ex. your discord id
     validations:
-      required: true
+      required: false
   - type: textarea
     id: what-happened
     attributes:
@@ -40,6 +40,7 @@ body:
       label: What browsers are you seeing the problem on?
       multiple: true
       options:
+        - All
         - Chrome
         - Firefox
         - Brave
@@ -48,7 +49,7 @@ body:
         - Mobile Metamask
         - Not present in list
     validations:
-      required: true
+      required: false
   - type: textarea
     id: logs
     attributes:
@@ -58,8 +59,8 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct]
+      label: Terms and conditions
+      description: By submitting this issue, you agree to follow our terms and conditions
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: I agree to follow DCG's [terms and conditions](https://dragoncrypto.io/terms-of-use)
           required: true
