@@ -1,0 +1,25 @@
+370;OPEN;[Enchancement]: Add sync events for single craft and forge;bug, High;2023-02-05 21:07:20 +0000 UTC
+349;OPEN;[Bug]: Claiming DCAR/DCAU;bug, High, Waiting for merge;2023-01-22 20:19:42 +0000 UTC
+348;CLOSED;[Bug]: Crafting - Azure Storage Bug;bug, High, Waiting for merge;2023-01-21 09:07:45 +0000 UTC
+332;OPEN;[Enhancements] Pre-wipe tweaks;enhancement, High;2023-01-21 00:17:55 +0000 UTC
+317;CLOSED;[Bug]: heroStat.bonusHp in unequipItem does not exist;bug, High, Waiting for merge;2023-01-11 04:06:41 +0000 UTC
+299;CLOSED;[Bug]: totalCrafting not defined on hero-api;bug, High, Waiting for merge;2023-01-08 06:59:35 +0000 UTC
+258;CLOSED;[Enhancement] Reduce loot from fights;enhancement, High;2023-01-03 05:57:29 +0000 UTC
+252;CLOSED;[Enhancement] DCAR Scales with Quality of Crafted items;enhancement, High, Currently Working;2023-01-03 02:20:48 +0000 UTC
+248;OPEN;[Bug]: Use quantity from signature instead of current quantity in stash. In case of ERC1155s;bug, High, Currently Working;2023-01-03 05:23:22 +0000 UTC
+236;CLOSED;[Bug]: Crafting certain resources causes server crash and does not recover;bug, High;2023-01-02 04:31:38 +0000 UTC
+220;CLOSED;[Bug]: *Server crashing bug* Crafting - Attempting to put better quality resources does not change the outcome of the item;bug, High;2023-01-02 04:31:46 +0000 UTC
+219;CLOSED;[Bug]: Crafting - Stones of power do not get burned when crafting;bug, High, Currently Working;2022-12-29 06:33:36 +0000 UTC
+204;CLOSED;[Bug]: Free turns at mines;bug, High, Currently Working;2022-12-26 18:17:43 +0000 UTC
+139;CLOSED;[Bug]: blueprintItem.stats not found;bug, High;2022-12-21 00:41:47 +0000 UTC
+134;CLOSED;[Bug]: Mining - You can mine resources above your gathering skill;bug, High, Currently Working;2022-12-26 15:42:07 +0000 UTC
+99;CLOSED;[Bug]: +Gathering item bonus not working properly.;bug, High;2022-12-28 19:48:09 +0000 UTC
+94;CLOSED;[Bug]: Item duping *High prio*;bug, High;2022-12-09 09:55:52 +0000 UTC
+48;CLOSED;[Bug]: Disallow item selection in stash while a transaction is pending;bug, High, Currently Working;2022-11-28 09:48:49 +0000 UTC
+41;CLOSED;[Bug]: Burn NFT on being broken into smaller parts.;bug, High;2022-12-27 15:11:42 +0000 UTC
+36;CLOSED;[Security?]: Login signature missing namespace & nonce;bug, High;2022-11-17 20:10:24 +0000 UTC
+35;CLOSED;[Bug]: Hero API Crash - user leveled up from mining;bug, High;2022-11-16 18:17:13 +0000 UTC
+28;CLOSED;[Bug]: Contract - Resurrection does not remove the shown DCAU cost.;bug, High;2022-11-13 23:40:25 +0000 UTC
+19;CLOSED;Two Dead Heroes at Healer's Hut;bug, High, Currently Working;2022-11-07 22:09:07 +0000 UTC
+11;CLOSED;[Bug]: Crafted consumables are being inserted in the equipment table;bug, High;2022-11-03 14:34:06 +0000 UTC
+6;CLOSED;[Bug]: Sign-Crafting on hero api is not formed correctly;bug, High;2022-11-01 19:03:46 +0000 UTC
